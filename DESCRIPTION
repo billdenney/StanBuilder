@@ -1,0 +1,18 @@
+Package: StanBuilder
+Title: An R-based Stan Model Building Library
+Version: 0.0.0.9000
+Authors@R: person("William", "Denney", email = "wdenney@humanpredictions.com", role = c("aut", "cre"))
+Description: Enable algorithmic model creation for Stan
+(http://mc-stan.org).  The package provides functions and classes to
+generalize the translation of modeling intent to model code.
+Depends: R (>= 3.0.0),
+  testthat,
+  knitr
+Suggests: rstan
+License: AGPL-3
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/billdenney/StanBuilder
+BugReports: https://github.com/billdenney/StanBuilder/issues
+NeedsCompilation: no
+VignetteBuilder: knitr
